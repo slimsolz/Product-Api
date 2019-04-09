@@ -1,11 +1,55 @@
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Google API Tokens
+app/token.json
+app/credentials.json
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
+
+# PHPStorm
+.idea/
+.DS_Store
+deploy/*.yml
+deploy/*.yml-*
+deploy/*.config
+sample.envs& Lumen specific
 /node_modules
 /public/hot
 /public/storage
 /storage/*.key
 /vendor
 .env
+app/token.json
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+database/*.sqlite
+.env.*.php
+.env.php
+.env
+.env.testing
+Homestead.yaml
+Homestead.json
+
+build/
+
+# Test Coverage Report
+report
+coverage.html/
+/cover
+
+# Email Files (include)
+!resources/views/vendor/
+
+# vscode
+.vscode
+crontab
+
+# vim
+*.swp
+*.swo
